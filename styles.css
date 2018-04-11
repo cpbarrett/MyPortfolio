@@ -15,9 +15,16 @@ body {
   font-size: 18px;
   line-height: 27px;
 
-  /* Visual */
+  /* Visual 
   background-color: #777;
-  color: teal;
+  color: teal;*/
+  
+  /* Background Image */
+  background-image: url('./images/background.jpeg');
+  background-size: cover;
+  background-repeat: none;
+  height: 100vh;
+  background-attachment: fixed;
 
 }
 
@@ -33,6 +40,13 @@ body {
   margin: 40px auto;
 }
 
+/*rotate and size self, height and width are swapped technically*/
+.self {
+  transform: rotate(90deg);
+  height: 242px;
+  width: 322px;
+}
+
 #main-content,
 #sidebar {
   /* Box-model */
@@ -45,7 +59,11 @@ body {
   float: left;
 
   /* Visual */
-  background: #fff;
+  /*background: #fff;*/
+  font-size: 20px;
+  width: 70%;
+  margin: 15px;
+  font-weight: bolder;
 }
 
 #sidebar {
