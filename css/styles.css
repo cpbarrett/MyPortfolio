@@ -29,6 +29,22 @@ body {
 
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 /*
   The width of the wrapper will be 1024px
   at browser widths above 768px
