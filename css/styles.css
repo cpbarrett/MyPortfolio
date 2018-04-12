@@ -20,7 +20,8 @@ body {
   color: teal;*/
   
   /* Background Image */
-  background-image: url('./images/background.jpeg');
+  background-image: url("../images/background.jpeg");
+  background-color: #cccccc;
   background-size: cover;
   background-repeat: none;
   height: 100vh;
