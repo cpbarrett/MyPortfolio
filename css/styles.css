@@ -77,6 +77,20 @@ a:active {
   width: 500px;
 }
 
+.skills-tag {
+    display: inline-block;
+    text-align: left;
+    margin: 0 5px 5px 0;
+    padding: 0 2px 0 2px;
+    border: 1px solid #F1F1F0;
+    border-radius: 2px;
+}
+
+.projects:hover {
+  border: 2px solid dodgerblue;
+  transform: scale(1.05);
+}
+
 #main-content,
 #sidebar {
   /* Box-model */
